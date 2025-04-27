@@ -1,5 +1,7 @@
 """
-Problem Statement: Given an array of integers nums and an integer target, find the smallest index (0 based indexing) where the target appears in the array. If the target is not found in the array, return -1
+Problem Statement: Given an array of integers nums and an integer target, 
+find the smallest index (0 based indexing) where the target appears in the array. 
+If the target is not found in the array, return -1
 
 TC:
 1.  Input: nums = [2, 3, 4, 5, 3], target = 3
@@ -28,8 +30,12 @@ res_idx = linearSearch(nums, target)
 print(res_idx)
 
 """
-Approach: The approach to solve this problem is pretty straightforward, because as the category says, it is a fundamental array problem, which can be solved pretty simply, just be traversing through the array and just checking each number with the target and returning the found idx (or) -1 if not found
+Approach: The approach to solve this problem is pretty straightforward, 
+because as the category says, it is a fundamental array problem, 
+which can be solved pretty simply, just be traversing through the array 
+and just checking each number with the target and returning the found idx (or) -1 if not found
 
-Time: O(n) -> As we traverse through the entire array (In the worst case the element might be found in the last index)
+Time: O(n) -> As we traverse through the entire array (In the worst case the element 
+might be found in the last index)
 Space: O(1) -> We are not using any extra space, just some constant space operations
 """
