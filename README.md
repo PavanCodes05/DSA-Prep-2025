@@ -8,7 +8,7 @@ I'm gonna be using the striver's A2Z sheet to prepare for the internship coding 
 
 ### Topics to be done:
 
-1. Sorting Algos 
+1. Sorting Algos - ✔ 
 2. Arrays
 3. Hashing
 4. Binary Search
